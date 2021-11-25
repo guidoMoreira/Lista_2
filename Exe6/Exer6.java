@@ -1,0 +1,7 @@
+package Exe6;
+
+public class Exer6{
+    public static void main(String[] args) {
+
+    }
+}
