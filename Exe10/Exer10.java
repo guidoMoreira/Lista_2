@@ -27,7 +27,6 @@ public class Exer10 {
     }
     //--------------
 
-
     public static void main(String[] args) {
         Exer10 Singleton = Exer10.getInstancia();
 
