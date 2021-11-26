@@ -1,5 +1,4 @@
 package Exe8;
-
 import javax.swing.*;
 
 public class Exer8 {
