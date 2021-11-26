@@ -1,29 +1,27 @@
 package Exe7;
 
-import Exe6.ExceptionA;
-
 import java.io.IOException;
 
 public class Exer7 {
     public static void main(String[] args) {
-        try {
-
-        }catch (ExceptionA e) {
+       try {
+            throw new ExceptionA();
+        }catch (Exception e) {
             System.out.println(e.toString());
         }
         try {
-
-        }catch (ExceptionB e) {
+            throw new ExceptionB();
+        }catch (Exception e) {
             System.out.println(e.toString());
         }
         try {
-
-        }catch (NullPointerException e) {
+            throw new NullPointerException();
+        }catch (Exception e) {
             System.out.println(e.toString());
         }
         try {
-
-        }catch (IOException e) {
+            throw new IOException();
+        }catch (Exception e) {
             System.out.println(e.toString());
         }
     }
